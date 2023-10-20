@@ -1,9 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{html,jsx,png}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "ca-page-btn-color": "#D7DA5E",
+      },
+      // backgroundImage: {
+      //   "containerBg-image": "url('./src/components/Images/image6.png')",
+      // },
+      backgroundColor: {
+        colorOfbg: "#4A1132",
+      },
+    },
   },
   plugins: [],
-}
-
+};
