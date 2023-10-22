@@ -16,8 +16,8 @@ function CAfrontPage(props) {
 
   return (
     <>
-      <div className="container bg-colorOfbg xs:h-[90rem] sm:h-[80rem] md:h-[60rem] mdl:h-[60rem] lg:h-[60rem] xlg:h-[60rem] max-w-full lg:flex lg:flex-row xlg:flex xlg:flex-row">
-        <div className="box-1 text-center lg:float-right lg:w-[50%] lg:mt-20 xlg:float-right xlg:w-[50%] xlg:mt-20">
+      <div className="container bg-colorOfbg xs:h-[90rem] sm:h-[90rem] md:h-[90rem] mdl:h-[90rem] lg:h-[60rem] xlg:h-[60rem] max-w-full lg:flex lg:flex-row xlg:flex xlg:flex-row">
+        <div className="box-1 text-center lg:float-right lg:w-[50%] lg:mt-52 xlg:float-right xlg:w-[45%] xlg:mt-52">
           <h1 className="xs:text-5xl font-bold text-[white] sm:text-6xl md:text-6xl mdl:text-6xl lg:text-6xl xlg:text-6xl">
             CAMPUS AMBASSADOR
           </h1>
@@ -32,21 +32,21 @@ function CAfrontPage(props) {
           </button>
         </div>
         <div className="box-2 block items-center justify-center xs:flex sm:flex md:flex mdl:flex xs:flex-col sm:flex-col md:flex-col mdl:flex-col xs:mt-20 sm:mt-20 smd:mt-20 md:mt-20 mdl:mt-20 lg:float-right lg:w-[40%] xlg:float-right xlg:w-[40%]">
-          <div className="flex flex-col items-center justify-center lg:mt-20 xlg:mt-20">
+          <div className="flex flex-col items-center justify-center lg:mt-20 lg:ml-36 xlg:mt-20 xlg:ml-36">
             <img
               className="xs:w-[160px] xs:h-[55px] z-10 sm:w-[160px] sm:h-[55px] md:w-[160px] md:h-[55px] mdl:w-[170px] mdl:h-[55px] lg:w-[170px] lg:h-[55px] xlg:w-[170px] xlg:h-[55px]"
               src={lamp}
               alt=""
             />
             <img
-              className={`xs:h-[65%] xs:w-[50%] xs:absolute sm:absolute md:absolute mdl:absolute lg:absolute xlg:absolute sm:h-[60%] sm:w-[39%] md:h-[60%] md:w-[30%] mdl:h-[60%] mdl:w-[27%] lg:h-[60%] lg:w-[25%] xlg:h-[60%] xlg:w-[25%]
+              className={`xs:h-[420px] xs:w-[250px] xs:absolute sm:absolute md:absolute mdl:absolute lg:absolute xlg:absolute sm:h-[420px] sm:w-[250px] md:h-[420px] md:w-[250px] mdl:h-[420px] mdl:w-[250px] lg:h-[418px] lg:w-[280px] xlg:h-[418px] xlg:w-[280px]
               ${showCA ? "show" : "hidden"}
               `}
               src={lyt}
               alt=""
             />
             <button
-              className="p-1 xs:h-[40px] xs:w-[110px] xs:mt-[-35%] sm:h-[40px] sm:w-[110px] sm:mt-[-35%] md:w-[110px] md:mt-[-35%] mdl:h-[40px] mdl:w-[115px] mdl:mt-[-35%] lg:h-[40px] lg:w-[115px] lg:mt-[-13%] xlg:h-[40px] xlg:w-[115px] xlg:mt-[-13%] text-white font-semibold text-xl border rounded-full bg-colorOfLamp z-20"
+              className="p-1 xs:h-[40px] xs:w-[110px] xs:mt-[-35%] sm:h-[40px] sm:w-[110px] sm:mt-[-35%] md:w-[110px] md:mt-[-35%] mdl:h-[40px] mdl:w-[115px] mdl:mt-[-35%] lg:h-[40px] lg:w-[115px] lg:mt-[-55px] xlg:h-[40px] xlg:w-[115px] xlg:mt-[-55px] text-white font-semibold text-xl border rounded-full bg-colorOfLamp z-20"
               onClick={handleTaphere}
             >
               Tap here
